@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>AGE Calc.</title>
+  </head>
+  <body>
+    <main>
+      <div class="input-div">
+        <div>
+          <p>DAY</p>
+          <input id="input-day" type="number" placeholder="00" />
+        </div>
+        <div>
+          <p>MONTH</p>
+          <input id="input-month" type="number" placeholder="00" />
+        </div>
+        <div>
+          <p>YEAR</p>
+          <input id="input-year" type="number" placeholder="0000" />
+        </div>
+      </div>
+      <div id="click-arrow" class="arrow-down">
+        <img
+          src="./age-calculator-app-main/assets/images/icon-arrow.svg"
+          alt=""
+        />
+      </div>
+      <div class="display-div">
+        <h1><span id="year">2021</span> years</h1>
+        <h1><span id="month">3</span> months</h1>
+        <h1><span id="day">26</span> days</h1>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
